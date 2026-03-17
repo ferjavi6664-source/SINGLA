@@ -6,6 +6,8 @@ cmds = ["composer install --no-dev --optimize-autoloader"]
 
 [phases.build]
 cmds = [
+  "mkdir -p database",
+  "touch database/database.sqlite",
   "php artisan key:generate",
   "php artisan config:cache"
 ]
