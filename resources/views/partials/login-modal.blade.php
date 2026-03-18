@@ -21,10 +21,9 @@
 <input type="password" name="password" class="form-control rounded-3" placeholder="Password">
 <label>Contraseña</label>
 </div>
-
-<button class="btn btn-primary w-100 py-2 rounded-3 fw-bold">
+<a href="/dashboard" class="btn btn-primary w-100 py-2 rounded-3 fw-bold">
 Ingresar
-</button>
+</a>
 
 </form>
 
