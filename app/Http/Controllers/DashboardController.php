@@ -32,4 +32,8 @@ class DashboardController extends Controller
 
         return view('dashboard.usuarios');
     }
+    public function servicios()
+    {
+        return view('servicios');
+    }
 }

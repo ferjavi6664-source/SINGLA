@@ -9,12 +9,11 @@
     <ul class="nav flex-column">
 
         <li class="nav-item">
-            <a href="/"
-               class="nav-link" onclick="cargarVista(event, '/')">
-                <i class="bi bi-speedometer2"></i>
-                <span>Inicio</span>
+            <a href="/dashboard"
+               class="nav-link" onclick="cargarVista(event, '/dashboard')">
+                <i class="bi bi-truck"></i>
+                <span>inicio</span>
             </a>
-
         </li>
         
 
@@ -31,6 +30,12 @@
                class="nav-link" onclick="cargarVista(event, '/usuarios')">
                 <i class="bi bi-clipboard"></i>
                 <span>Usuarios</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="/servicios" class="nav-link">
+                <i class="bi bi-clipboard-data"></i>
+                <span>Servicios</span>
             </a>
         </li>
 

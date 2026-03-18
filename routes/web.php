@@ -11,3 +11,4 @@ Route::get('/', function () {
 Route::get('/dashboard', [DashboardController::class, 'inicio']);
 Route::get('/reportes', [DashboardController::class, 'reportes']);
 Route::get('/usuarios', [DashboardController::class, 'usuarios']);
+Route::get('/servicios', [DashboardController::class, 'servicios']);
